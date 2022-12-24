@@ -21,7 +21,7 @@ function setup(){
     canvas = createCanvas(280, 280)
     canvas.center()
     background('white')
-    canvas.mouseRealeased(classifyCanvas)
+    canvas.mouseReleased(classifyCanvas)
 }
 function draw(){
     strokeWeight(12.5)
